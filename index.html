@@ -3,114 +3,86 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-    <title>Component Library</title>
+    <title>Home | Aravindan</title>
+    <link rel="stylesheet" href="/styles.css" />
   </head>
   <body>
-    <h1>Aravind's Component Library</h1>
-    <p>
-      I am attending neog camp and I want to make a library which would make all
-      my projects looks good and consistent.
-    </p>
-
-    <hr />
-
-    <h2>@Typography</h2>
-    <h1>This is the biggest heading</h1>
-    <h2>This is the second biggest</h2>
-    <p>
-      Let me show you the normal text. This is free flowing and will wrap at the
-      end like a paragraph
-    </p>
-    <small>This is relatively smaller text.</small>
-
-    <hr />
-
-    <h2>@Container</h2>
-    <h3>fluid container</h3>
-    <div>
-      This is a fluid container and it will go till the end of the page.
-    </div>
-    <h3>center container</h3>
-    <div>
-      This is a centered container and it will go till the specified width.
-    </div>
-
-    <hr />
-
-    <h2>@Links</h2>
-    <a href="/">Primary link</a>
-    <a href="/">Secondary link</a>
-
-    <hr />
-
-    <h2>@Links</h2>
-    <h3>unordered list</h3>
-    <ul>
-      <li>Item one</li>
-      <li>Item two</li>
-      <li>Item three</li>
-    </ul>
-
-    <h3>unordered inline list</h3>
-    <ul>
-      <li>Inline Item one</li>
-      <li>Inline Item two</li>
-      <li>Inline Item three</li>
-    </ul>
-
-    <h3>reverse ordered list</h3>
-    <ol>
-      <li>Milk</li>
-      <li>Egg</li>
-      <li>Bread</li>
-    </ol>
-
-    <hr />
-
-    <h2>@nav</h2>
-    <div>iAmBrand</div>
-    <ul>
-      <li>
-        <a href="/">Home</a>
-      </li>
-      <li>
-        <a href="/">Projects</a>
-      </li>
-      <li>
-        <a href="/">Blogs</a>
-      </li>
-    </ul>
-
-    <hr />
-
-    <h2>header</h2>
-    <header>
-      <img src="/images/header.svg" alt="an image" />
-      <h2>heading inside header</h2>
+    <nav class="navigation container">
+      <div class="nav-brand">ARAVIND'S PORTFOLIO</div>
+      <ul class="list-non-bullet nav-pills">
+        <li class="list-item-inline">
+          <a class="link link-active" href="/">Home</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="/projects.html">Projects</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="/blogs.html">Blogs</a>
+        </li>
+      </ul>
+    </nav>
+    <header class="hero">
+      <img class="hero-img" src="/images/header.svg" alt="an image" />
+      <h2 class="hero-heading">
+        Aravindan the <span class="heading-inverted">web developer</span>
+      </h2>
     </header>
 
-    <hr />
-
-    <h2>@section</h2>
-    <section>
-      <h3>white section</h3>
-      <p>This will have white background</p>
+    <section class="section ow">
+      <div class="container container-center">
+        <h3>Technologies</h3>
+        <p>
+          I have a strong proficiency in HTML5, CSS3, git, Javascript and in
+          React. Also I am familiar with some tools and technologies like
+          Node.js, MongoDB, Figma. Apart from that I am learning technologies
+          like Typescript, GraphQl, Next.js and Docker.
+        </p>
+      </div>
     </section>
-    <section>
-      <h3>grey section</h3>
-      <p>This will have grey background</p>
+    <section class="section">
+      <div class="container container-center">
+        <h3>Projects</h3>
+        <p>
+          I am a strong believer of project based learning and hence I have made
+          some projects to showcase my skills.
+        </p>
+        <a class="link link-primary" href="/projects.html">BROWSE PROJECTS</a>
+      </div>
     </section>
-
-    <hr />
-
-    <h2>@footer</h2>
-    <footer>
-      <div>some small heading inside footer</div>
-      <ul>
-        <li>socialOne</li>
-        <li>socialTwo</li>
-        <li>socialThree</li>
+    <section class="section ow">
+      <div class="container container-center">
+        <h3>Blogs</h3>
+        <p>
+          I like to document my journey of programming and I love to try new
+          technologies and hence I have written some blogs to explain some
+          technical and non-technical concepts to all the other learners.
+        </p>
+        <a class="link link-secondary" href="/blogs.html">BROWSE BLOGS</a>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer-header">Connect with me on social media</div>
+      <ul class="social-links list-non-bullet">
+        <li class="list-item-inline">
+          <a class="link" href="https://www.linkedin.com/in/aravindan33/">
+            <img src="/images/linkedin.svg" alt="Linkedin" />
+          </a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="https://github.com/Aravindan07">
+            <img src="/images/github.svg" alt="Github" />
+          </a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="https://twitter.com/aravindan_33">
+            <img src="/images/twitter.svg" alt="Twitter" />
+          </a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="https://www.instagram.com/i_m_aravind33/">
+            <img src="/images/instagram.svg" alt="Instagram" />
+          </a>
+        </li>
       </ul>
     </footer>
   </body>
