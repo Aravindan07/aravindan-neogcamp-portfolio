@@ -100,6 +100,15 @@ ol {
   text-align: right;
 }
 
+@media only screen and (max-width: 376px) {
+  .hero {
+    padding: 1rem;
+  }
+  .hero .hero-img {
+    width: 280px;
+  }
+}
+
 @media only screen and (max-width: 380px) {
   .list-item-inline {
     padding: 0rem;
