@@ -28,7 +28,7 @@ hr {
 
 .center {
   max-width: 600px;
-  margin: 1rem auto;
+  margin: 1rem auto 2rem auto;
 }
 
 .center li {
